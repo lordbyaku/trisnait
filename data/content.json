@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Aditya Pratama — Creative Developer & Designer",
-    "description": "Portofolio Aditya Pratama, creative developer & designer yang membangun pengalaman web interaktif.",
+    "title": "Haritrisna Suryadimarta",
+    "description": "Portofolio Haritrisna Suryadimarta, creative developer & designer yang membangun pengalaman web interaktif.",
     "favicon": "",
     "ogImage": "",
-    "logoText": "AP",
+    "logoText": "TRISNA",
     "showLoader": true,
     "loaderText": "Loading",
     "customCursor": true,
-    "headerEmail": "halo@aditya.dev"
+    "headerEmail": "haritrisna@gmail.com"
   },
   "theme": {
     "bg": "#0b080c",
@@ -83,18 +83,19 @@
   },
   "hero": {
     "greeting": "Hello! I'm",
-    "firstName": "Aditya",
-    "lastName": "Pratama",
+    "firstName": "Haritrisna",
+    "lastName": "Suryadimarta",
     "rolePrefix": "A Creative",
     "roles": [
       "Designer",
-      "Developer"
+      "Developer",
+      "Father :)"
     ],
     "subtitle": "Membangun website yang hidup — interaktif, cepat, dan berkesan.",
     "roleInterval": 2600,
     "model": {
       "type": "shape",
-      "shape": "blob",
+      "shape": "icosa",
       "glbUrl": "",
       "color": "#2a1f33",
       "scale": 1,
@@ -105,7 +106,7 @@
   },
   "about": {
     "heading": "About Me",
-    "body": "Saya creative developer yang berbasis di Jakarta dengan pengalaman **5+ tahun** membangun website, aplikasi, dan pengalaman digital interaktif. Saya senang memadukan **desain yang bersih** dengan animasi dan 3D agar setiap brand terasa hidup di layar.",
+    "body": "Saya creative developer yang berbasis di Magelang dengan pengalaman **15+ tahun** membangun website, aplikasi, dan pengalaman digital interaktif. Saya senang memadukan **desain yang bersih** dengan animasi dan 3D agar setiap brand terasa hidup di layar.",
     "image": ""
   },
   "services": {
