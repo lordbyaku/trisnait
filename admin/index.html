@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio CMS</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <!-- LOGIN -->
+  <div id="login" class="login" hidden>
+    <form id="login-form" class="login-card">
+      <div class="brand">◆ Portfolio CMS</div>
+      <h1>Masuk ke dashboard</h1>
+      <label>Password<input type="password" name="password" autocomplete="current-password" required autofocus></label>
+      <button class="btn primary" type="submit">Masuk</button>
+      <p class="err" id="login-err"></p>
+    </form>
+  </div>
+
+  <!-- APP -->
+  <div id="app" class="app" hidden>
+    <aside class="side">
+      <div class="brand">◆ Portfolio CMS</div>
+      <nav id="side-nav"></nav>
+      <div class="side-foot">
+        <a class="btn ghost sm" href="/" target="_blank">Buka situs ↗</a>
+        <button class="btn ghost sm" id="logout">Keluar</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="btn ghost sm menu-btn" id="menu-btn" aria-label="Menu">☰</button>
+        <h2 id="sec-title">—</h2>
+        <span class="status" id="status"></span>
+        <div class="top-actions">
+          <button class="btn ghost sm" id="toggle-preview" title="Tampilkan/sembunyikan live preview">Preview</button>
+          <button class="btn primary" id="save">Simpan <kbd>Ctrl S</kbd></button>
+        </div>
+      </header>
+      <div class="banner" id="pw-banner" hidden>⚠ Kamu masih memakai password default <b>admin123</b>. Ganti sekarang di menu <a href="#account">Akun & Keamanan</a>.</div>
+      <div class="workspace">
+        <div class="editor" id="editor"></div>
+        <div class="preview" id="preview">
+          <div class="preview-bar">
+            <span>Live preview (draft)</span>
+            <div class="seg">
+              <button data-w="100%" class="on">Desktop</button>
+              <button data-w="768px">Tablet</button>
+              <button data-w="390px">Mobile</button>
+            </div>
+          </div>
+          <div class="preview-frame-wrap"><iframe id="frame" title="Preview"></iframe></div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

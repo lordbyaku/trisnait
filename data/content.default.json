@@ -1,0 +1,147 @@
+{
+  "site": {
+    "title": "Aditya Pratama — Creative Developer & Designer",
+    "description": "Portofolio Aditya Pratama, creative developer & designer yang membangun pengalaman web interaktif.",
+    "favicon": "",
+    "ogImage": "",
+    "logoText": "AP",
+    "showLoader": true,
+    "loaderText": "Loading",
+    "customCursor": true,
+    "headerEmail": "halo@aditya.dev"
+  },
+  "theme": {
+    "bg": "#0b080c",
+    "bg2": "#151019",
+    "text": "#eae5ec",
+    "muted": "#a9a1ad",
+    "accent": "#c481ff",
+    "accent2": "#5eead4",
+    "fontHeading": "Geist",
+    "fontBody": "Inter",
+    "radius": 18,
+    "grain": true,
+    "customCss": ""
+  },
+  "layout": {
+    "sections": [
+      { "id": "hero", "label": "Hero", "visible": true },
+      { "id": "about", "label": "About", "visible": true },
+      { "id": "services", "label": "What I Do", "visible": true },
+      { "id": "experience", "label": "Career", "visible": true },
+      { "id": "projects", "label": "Work", "visible": true },
+      { "id": "techstack", "label": "Tech Stack", "visible": true },
+      { "id": "contact", "label": "Contact", "visible": true }
+    ]
+  },
+  "nav": {
+    "items": [
+      { "label": "About", "target": "about" },
+      { "label": "Work", "target": "projects" },
+      { "label": "Contact", "target": "contact" }
+    ],
+    "resumeLabel": "Resume",
+    "resumeUrl": "#",
+    "showFixedSocials": true
+  },
+  "hero": {
+    "greeting": "Hello! I'm",
+    "firstName": "Aditya",
+    "lastName": "Pratama",
+    "rolePrefix": "A Creative",
+    "roles": ["Designer", "Developer"],
+    "subtitle": "Membangun website yang hidup — interaktif, cepat, dan berkesan.",
+    "roleInterval": 2600,
+    "model": {
+      "type": "shape",
+      "shape": "blob",
+      "glbUrl": "",
+      "color": "#2a1f33",
+      "scale": 1,
+      "autoRotate": true,
+      "followMouse": true,
+      "particles": true
+    }
+  },
+  "about": {
+    "heading": "About Me",
+    "body": "Saya creative developer yang berbasis di Jakarta dengan pengalaman **5+ tahun** membangun website, aplikasi, dan pengalaman digital interaktif. Saya senang memadukan **desain yang bersih** dengan animasi dan 3D agar setiap brand terasa hidup di layar.",
+    "image": ""
+  },
+  "services": {
+    "heading": "What",
+    "headingAccent": "I Do",
+    "items": [
+      {
+        "title": "Develop",
+        "subtitle": "Website & Web App",
+        "description": "Membangun website responsif dan web app yang cepat — dari landing page interaktif sampai dashboard kompleks dengan animasi 3D.",
+        "tagsLabel": "Skillset & tools",
+        "tags": ["JavaScript", "TypeScript", "React", "Next.js", "Three.js", "GSAP", "Node.js", "Tailwind"]
+      },
+      {
+        "title": "Design",
+        "subtitle": "UI / UX & Branding",
+        "description": "Merancang antarmuka yang intuitif dan identitas visual yang kuat, mulai dari wireframe, prototype, hingga design system.",
+        "tagsLabel": "Skillset & tools",
+        "tags": ["Figma", "Blender", "Photoshop", "Illustrator", "Spline", "Framer"]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "My career",
+    "headingAccent": "& experience",
+    "items": [
+      { "role": "Junior Web Developer", "company": "Studio Kreatif ID", "year": "2020", "description": "Membangun landing page dan company profile untuk klien UMKM hingga korporat." },
+      { "role": "Frontend Engineer", "company": "Teknologi Nusantara", "year": "2022", "description": "Mengembangkan dashboard internal dengan React dan memimpin migrasi ke design system baru." },
+      { "role": "Creative Developer", "company": "Freelance", "year": "NOW", "description": "Membuat website interaktif berbasis Three.js & GSAP untuk brand lokal dan internasional." }
+    ]
+  },
+  "projects": {
+    "heading": "My",
+    "headingAccent": "Work",
+    "items": [
+      { "title": "Nusa Coffee", "category": "E-commerce", "tools": "Next.js, Stripe, GSAP", "image": "", "link": "#", "color": "#c481ff" },
+      { "title": "Orbit Finance", "category": "Dashboard", "tools": "React, D3, Node.js", "image": "", "link": "#", "color": "#5eead4" },
+      { "title": "Lumen Studio", "category": "Company Profile", "tools": "Three.js, Blender, GSAP", "image": "", "link": "#", "color": "#f59e8b" },
+      { "title": "Jelajah", "category": "Mobile App", "tools": "React Native, Firebase", "image": "", "link": "#", "color": "#8bb8f5" },
+      { "title": "Sora Music", "category": "Web Experience", "tools": "WebGL, Tone.js", "image": "", "link": "#", "color": "#f5d48b" }
+    ]
+  },
+  "techstack": {
+    "heading": "My",
+    "headingAccent": "Techstack",
+    "hint": "Gerakkan kursor ke bola-bola di bawah",
+    "items": [
+      { "name": "React", "color": "#149eca", "icon": "" },
+      { "name": "Next.js", "color": "#1f1f1f", "icon": "" },
+      { "name": "Three.js", "color": "#3b3b3b", "icon": "" },
+      { "name": "GSAP", "color": "#0ae448", "icon": "" },
+      { "name": "Node", "color": "#5fa04e", "icon": "" },
+      { "name": "TS", "color": "#3178c6", "icon": "" },
+      { "name": "Figma", "color": "#a259ff", "icon": "" },
+      { "name": "Blender", "color": "#e87d0d", "icon": "" },
+      { "name": "Tailwind", "color": "#0ea5e9", "icon": "" },
+      { "name": "MongoDB", "color": "#00684a", "icon": "" },
+      { "name": "Git", "color": "#f05032", "icon": "" },
+      { "name": "Vite", "color": "#7c4dff", "icon": "" }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "connectLabel": "Connect",
+    "email": "halo@aditya.dev",
+    "phone": "+62 812 3456 7890",
+    "location": "Jakarta, Indonesia",
+    "socialLabel": "Social",
+    "socials": [
+      { "label": "Github", "icon": "github", "url": "https://github.com" },
+      { "label": "LinkedIn", "icon": "linkedin", "url": "https://linkedin.com" },
+      { "label": "Instagram", "icon": "instagram", "url": "https://instagram.com" },
+      { "label": "X / Twitter", "icon": "x", "url": "https://x.com" }
+    ],
+    "creditPrefix": "Designed and Developed by",
+    "creditName": "Aditya Pratama",
+    "copyright": "© 2026"
+  }
+}
