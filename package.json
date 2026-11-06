@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "portfolio-cms",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Portfolio website interaktif (Three.js + GSAP) dengan dashboard CMS bawaan â€” tanpa dependency.",
   "main": "server.js",
   "scripts": {

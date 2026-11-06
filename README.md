@@ -4,6 +4,7 @@ Website portofolio interaktif bergaya **moncy.dev** (Three.js + GSAP) dengan **d
 
 | Versi | Tanggal | Catatan |
 |---|---|---|
+| 1.2.0 | 2026-11-06 | `.htaccess` mode statis untuk deploy cPanel via Git Deploy (trisnait.com) |
 | 1.1.0 | 2026-11-06 | Tambah `sync.bat` untuk push ke GitHub |
 | 1.0.1 | 2026-10-31 | Petunjuk sumber model 3D diperbarui; model .glb hanya memutar animasi pertama |
 | 1.0.0 | 2026-10-31 | Rilis pertama |
@@ -68,6 +69,19 @@ uploads/                  file yang di-upload dari dashboard
 | POST | `/api/password` | ✓ | Ganti password |
 
 ## Deploy
+
+### trisnait.com (cPanel DomaiNesia, mode statis)
+
+Repo ini di-deploy utuh ke `/home/trisnait/public_html` lewat **Git Deploy** cPanel (branch `main`). Tidak ada proses Node di server: `.htaccess` membuat Apache melayani `public/`, membaca konten dari `data/content.json` lewat `/api/content`, dan memblokir `data/`, `admin/`, `.git/`, `server.js`, serta file internal lain.
+
+Alur update konten:
+1. Jalankan `npm start` di laptop, edit di http://localhost:3000/admin, simpan.
+2. Jalankan `sync.bat` (commit + push ke GitHub; file di `uploads/` ikut ter-commit).
+3. Di cPanel → Git Deploy, klik **Deploy** untuk deployment `trisnait.com` (atau minta lewat MCP `git_deploy_deploy`).
+
+Dashboard `/admin` tidak tersedia di situs online (404).
+
+### Hosting Node.js
 
 Butuh hosting yang menjalankan Node.js **dan** punya disk persisten (konten & upload disimpan sebagai file): VPS (DigitalOcean, IDCloudHost, Biznet Gio), Railway/Render dengan volume, atau shared hosting cPanel yang punya "Setup Node.js App". Pasang di belakang HTTPS (Nginx/Caddy/Cloudflare). Vercel/Netlify tidak cocok tanpa modifikasi, karena filesystem-nya read-only.
 

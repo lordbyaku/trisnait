@@ -2,6 +2,12 @@
 
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/id/1.1.0/) dan [Semantic Versioning](https://semver.org/lang/id/).
 
+## [1.2.0] — 2026-11-06
+
+### Added
+- `.htaccess` untuk **mode statis** di shared hosting cPanel (Apache/LiteSpeed): repo di-deploy utuh ke `public_html` lewat Git Deploy; `/` dan aset dilayani dari `public/`, `/api/content` dibaca dari `data/content.json`, `/uploads/` tetap bisa diakses.
+- Akses langsung ke `data/`, `admin/`, `.git/`, `server.js`, `package.json`, `sync.bat`, dan file `.md` diblokir (404).
+
 ## [1.1.0] — 2026-11-06
 
 ### Added

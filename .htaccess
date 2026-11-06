@@ -1,0 +1,33 @@
+# Portfolio CMS — mode statis untuk shared hosting (Apache/LiteSpeed)
+# Repo di-deploy utuh ke docroot. Situs publik dilayani dari public/,
+# konten dari data/content.json. Dashboard /admin hanya dijalankan lokal (npm start).
+
+Options -Indexes
+DirectoryIndex index.html index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1) Blokir akses langsung ke file internal (cek request asli, bukan hasil rewrite)
+RewriteCond %{THE_REQUEST} \s/+(\.git|\.claude|data|admin|node_modules|server\.js|package(-lock)?\.json|sync\.bat|[^/\s]+\.md)(/|\s|\?|$) [NC]
+RewriteRule ^ - [R=404,L]
+
+# 2) API konten -> file JSON
+RewriteRule ^api/content/?$ data/content.json [L,T=application/json]
+RewriteRule ^api/ - [R=404,L]
+
+# 3) Halaman utama
+RewriteRule ^$ public/index.html [L]
+
+# 4) Aset publik yang ada di public/
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+RewriteRule ^(.+)$ public/$1 [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>

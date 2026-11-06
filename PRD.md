@@ -27,6 +27,7 @@ Pengguna ingin portofolio pribadi yang berkesan seperti **moncy.dev** (dark, 3D,
 
 ## Non-fungsional
 - Node.js 18+, tanpa npm dependency; data disimpan di file JSON.
+- Bisa di-hosting statis di shared hosting Apache (`.htaccess`): situs publik jalan tanpa Node, CMS dipakai lokal.
 - Situs tetap berfungsi tanpa WebGL (canvas 3D di-skip) dan menghormati `prefers-reduced-motion`.
 - Layout aman di lebar 360px ke atas.
 
