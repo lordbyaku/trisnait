@@ -1,18 +1,18 @@
 {
   "site": {
     "title": "Haritrisna Suryadimarta",
-    "description": "Portofolio Haritrisna Suryadimarta, creative developer & designer yang membangun pengalaman web interaktif.",
+    "description": "Portofolio Haritrisna Suryadimarta, System Integration, Hardware & Network Support, Creative Vibe Coder",
     "favicon": "",
     "ogImage": "",
     "logoText": "TRISNA",
     "showLoader": true,
-    "loaderText": "Loading",
-    "customCursor": true,
+    "loaderText": "Experience is Loading . . .",
+    "customCursor": false,
     "headerEmail": "haritrisna@gmail.com"
   },
   "theme": {
     "bg": "#0b080c",
-    "bg2": "#151019",
+    "bg2": "#463b4f",
     "text": "#eae5ec",
     "muted": "#a9a1ad",
     "accent": "#c481ff",
@@ -85,14 +85,15 @@
     "greeting": "Hello! I'm",
     "firstName": "Haritrisna",
     "lastName": "Suryadimarta",
-    "rolePrefix": "A Creative",
+    "rolePrefix": "A Helpfull",
     "roles": [
-      "Designer",
-      "Developer",
+      "IT Support",
+      "System Integration",
+      "Vibe Coder",
       "Father :)"
     ],
-    "subtitle": "Membangun website yang hidup — interaktif, cepat, dan berkesan.",
-    "roleInterval": 2600,
+    "subtitle": "Help you to find best match tech that suited you best.",
+    "roleInterval": 3000,
     "model": {
       "type": "shape",
       "shape": "icosa",
@@ -116,7 +117,7 @@
       {
         "title": "Develop",
         "subtitle": "Website & Web App",
-        "description": "Membangun website responsif dan web app yang cepat — dari landing page interaktif sampai dashboard kompleks dengan animasi 3D.",
+        "description": "Merancang & Membangun **website** responsif dan **web app** yang cepat dari landing page interaktif sampai aplikasi dan dashboard sesuai kebutuhan.",
         "tagsLabel": "Skillset & tools",
         "tags": [
           "JavaScript",
@@ -130,17 +131,18 @@
         ]
       },
       {
-        "title": "Design",
-        "subtitle": "UI / UX & Branding",
-        "description": "Merancang antarmuka yang intuitif dan identitas visual yang kuat, mulai dari wireframe, prototype, hingga design system.",
+        "title": "Tech Support",
+        "subtitle": "Hardware & Networking",
+        "description": "Merancang, Merawat, Memperbaiki Hardware dan Jaringan sesuai kebutuhan perusahaan. ",
         "tagsLabel": "Skillset & tools",
         "tags": [
-          "Figma",
-          "Blender",
-          "Photoshop",
-          "Illustrator",
-          "Spline",
-          "Framer"
+          "VMware",
+          "Mikrotik",
+          "Windows",
+          "NAS",
+          "Ruijie Network",
+          "Ubiquity",
+          "HPE Aruba"
         ]
       }
     ]
@@ -150,79 +152,82 @@
     "headingAccent": "& experience",
     "items": [
       {
-        "role": "Junior Web Developer",
-        "company": "Studio Kreatif ID",
-        "year": "2020",
-        "description": "Membangun landing page dan company profile untuk klien UMKM hingga korporat."
+        "role": "IT Manager",
+        "company": "Grand Artos Hotel & Convention",
+        "year": "2019-NOW",
+        "description": "Memastikan  **Business Continuity and Disaster Recovery** sesuai SOP. \nMemastikan semua sistem **PMS, IPTV, POS, PBX, CCTV** berjalan dengan baik 24/7.\nMerancang, merawat, memperbaiki seluruh insfrastruktur jaringan untuk mendukung kegiatan operasional.\nMeminimalkan komplain tamu tentang koneksi Internet.\n\n"
       },
       {
-        "role": "Frontend Engineer",
-        "company": "Teknologi Nusantara",
-        "year": "2022",
-        "description": "Mengembangkan dashboard internal dengan React dan memimpin migrasi ke design system baru."
+        "role": "Asst. IT Manager",
+        "company": "Java Village Resort",
+        "year": "2017-2019",
+        "description": ""
       },
       {
-        "role": "Creative Developer",
-        "company": "Freelance",
-        "year": "NOW",
-        "description": "Membuat website interaktif berbasis Three.js & GSAP untuk brand lokal dan internasional."
+        "role": "IT Supervisor",
+        "company": "Grand Serela Yogyakarta",
+        "year": "2017",
+        "description": ""
+      },
+      {
+        "role": "IT Office",
+        "company": "MesaStila Resort & Spa",
+        "year": "2011-2017",
+        "description": ""
       }
     ]
   },
   "projects": {
     "heading": "My",
-    "headingAccent": "Work",
+    "headingAccent": "project",
     "items": [
       {
-        "title": "Nusa Coffee",
-        "category": "E-commerce",
-        "tools": "Next.js, Stripe, GSAP",
+        "title": "Catat Aset",
+        "category": "Aset Manajemen",
+        "tools": "",
         "image": "",
-        "link": "#",
-        "color": "#c481ff"
-      },
-      {
-        "title": "Orbit Finance",
-        "category": "Dashboard",
-        "tools": "React, D3, Node.js",
-        "image": "",
-        "link": "#",
-        "color": "#5eead4"
-      },
-      {
-        "title": "Lumen Studio",
-        "category": "Company Profile",
-        "tools": "Three.js, Blender, GSAP",
-        "image": "",
-        "link": "#",
-        "color": "#f59e8b"
-      },
-      {
-        "title": "Jelajah",
-        "category": "Mobile App",
-        "tools": "React Native, Firebase",
-        "image": "",
-        "link": "#",
+        "link": "demo.catataset.my.id",
         "color": "#8bb8f5"
       },
       {
-        "title": "Sora Music",
-        "category": "Web Experience",
-        "tools": "WebGL, Tone.js",
+        "title": "Rekap Lancar POS",
+        "category": "Point Of Sales",
+        "tools": "",
         "image": "",
-        "link": "#",
-        "color": "#f5d48b"
+        "link": "rela.my.id",
+        "color": "#5eead4"
+      },
+      {
+        "title": "Warungku POS",
+        "category": "Point of Sales",
+        "tools": "",
+        "image": "",
+        "link": "https://warungku-pos.web.app/",
+        "color": "#f59e8b"
+      },
+      {
+        "title": "Silsilah Keluarga APP",
+        "category": "Web App",
+        "tools": "React.js, Stripe, GSAP",
+        "image": "",
+        "link": "famstory.my.id",
+        "color": "#c481ff"
       }
     ]
   },
   "techstack": {
-    "heading": "My",
-    "headingAccent": "Techstack",
-    "hint": "Gerakkan kursor ke bola-bola di bawah",
+    "heading": "I am Learn this ",
+    "headingAccent": "Tech",
+    "hint": "Hover me please :D",
     "items": [
       {
         "name": "React",
         "color": "#149eca",
+        "icon": ""
+      },
+      {
+        "name": "Ruijie Network",
+        "color": "#2e0ae6",
         "icon": ""
       },
       {
@@ -231,13 +236,8 @@
         "icon": ""
       },
       {
-        "name": "Three.js",
+        "name": "Mikrotik",
         "color": "#3b3b3b",
-        "icon": ""
-      },
-      {
-        "name": "GSAP",
-        "color": "#0ae448",
         "icon": ""
       },
       {
@@ -246,7 +246,7 @@
         "icon": ""
       },
       {
-        "name": "TS",
+        "name": "NAS",
         "color": "#3178c6",
         "icon": ""
       },
@@ -256,7 +256,7 @@
         "icon": ""
       },
       {
-        "name": "Blender",
+        "name": "Microsoft 365",
         "color": "#e87d0d",
         "icon": ""
       },
@@ -266,7 +266,7 @@
         "icon": ""
       },
       {
-        "name": "MongoDB",
+        "name": "VMware",
         "color": "#00684a",
         "icon": ""
       },
@@ -285,34 +285,34 @@
   "contact": {
     "heading": "Contact",
     "connectLabel": "Connect",
-    "email": "halo@aditya.dev",
-    "phone": "+62 812 3456 7890",
-    "location": "Jakarta, Indonesia",
+    "email": "haritrisna@gmail.com",
+    "phone": "+62 8562717803",
+    "location": "Magelang, Indonesia",
     "socialLabel": "Social",
     "socials": [
       {
         "label": "Github",
         "icon": "github",
-        "url": "https://github.com"
+        "url": "https://github.com/lordbyaku"
       },
       {
         "label": "LinkedIn",
         "icon": "linkedin",
-        "url": "https://linkedin.com"
+        "url": "https://www.linkedin.com/in/haritrisna-suryadimarta-96301263/"
       },
       {
         "label": "Instagram",
         "icon": "instagram",
-        "url": "https://instagram.com"
+        "url": "https://www.instagram.com/lordbyaku/"
       },
       {
-        "label": "X / Twitter",
-        "icon": "x",
-        "url": "https://x.com"
+        "label": "Tiktok",
+        "icon": "tiktok",
+        "url": "https://www.tiktok.com/@lordbyaku"
       }
     ],
     "creditPrefix": "Designed and Developed by",
-    "creditName": "Aditya Pratama",
+    "creditName": "Haritrisna Suryadimarta",
     "copyright": "© 2026"
   }
 }
